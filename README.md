@@ -1,10 +1,7 @@
-Install Guide
-=============
+# Install Guide
 
-1. Install or clone this directory into `~/.gitconfig.d`
+1. Clone this repo
 
-2. Update git excludesfile config by running `git config --global core.excludesfile ~/.gitignore_global`
-
-3. Make a symlink from ~/.gitconfig.d/gitignore to ~/.gitignore\_global (.i.e. run `ln -s ~/.gitconfig.d/gitignore ~/.gitignore_global`)
+2. Update git excludesfile config by running `git config --global core.excludesfile <cloned-path>/gitignore`
 
 Enjoy!
